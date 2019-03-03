@@ -6,13 +6,8 @@
 #	Explanation: 
 #	11! = 39916800, so the output should be 2
 
-class Solution:
-    """
-    @param: n: An integer
-    @return: An integer, denote the number of trailing zeros in n!
-    """
-    def trailingZeros(self, n):
-        # write your code here, try to do it without arithmetic operators.
+#in this question, should learn one way is first find the 个位 then divide 10 let 十位 change to 个位
+
         num=0
         f=1
         for i in range (1,n+1):
