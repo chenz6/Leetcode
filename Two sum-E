@@ -1,0 +1,20 @@
+#Example 1:
+#	Input:  a = 1, b = 2
+#	Output: 3
+	
+#	Explanation: 
+#	return the result of a + b.
+
+class Solution:
+    """
+    @param a: An integer
+    @param b: An integer
+    @return: The sum of a and b 
+    """
+    def aplusb(self, a, b):
+        # write your code here
+        sum= a+b
+       
+        print(sum)
+        
+        return sum
